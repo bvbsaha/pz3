@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="description" content="Ветеринарная клиника">
+    <title>Ветеринарная клиника</title>
+    <script src="scripts/script.js"></script>
+    <script src="http://code.jquery.com/jquery-2.0.2.min.js"></script>
+  </head>
+    <body>
+      <a style="position: fixed; bottom: 10px; right: 10px; cursor: pointer;" href="#top">
+        <img src="img/strelka.png" alt="Наверх" title="Наверх">
+      </a>
+      <header class="header">
+        <div class="header_inner">
+          <div class="logo"><img src="img/dog.png" width="88" alt="Собака"></div>
+          <div class="logo_text">Super <strong>PETS</strong></div>
+            <nav class="nav">
+              <a class="nav_link" href="#Items">Услуги</a>
+              <a class="nav_link" href="#video">Обзор</a>
+              <a class="nav_link" href="#pesontedan-one">Вопросы</a>
+              <a class="nav_link" href="#slider">Персонал</a>
+              <a class="nav_link" href="#contacts">Контакты</a>
+            </nav>
+        </div>
+      </header>
+      <div class="Pic">
+        <img src="img/Pic.jpg" width="1500" alt="Собака">
+        <div id="rectangle1">
+          <div id="rectangle2">
+            <div class="text_rec1">Ветеринарная клиника</div>
+            <div class="text_rec2">С заботой о Ваших питомцах</div><br>
+            <a id="rectangle2_1" href="#entry">Записаться на прием</a><br>
+            <div style="margin-top: 30px;"><a id="rectangle2_2" href="javascript:PopUpShow()">Заказать звонок</a></div>
+          </div>
+        </div>
+      </div>
+      <div class="title">Наши услуги</div>
+      <div id="Items">
+        <img class="Item1" src="img/path40.png" height="155" alt="Собака">
+        <img class="Item1" src="img/path11.png" height="155" alt="Собака">
+        <img class="Item1" src="img/path38.png" height="155" alt="Собака">
+        <img class="Item1" src="img/path28.png" height="155" alt="Собака">
+        <img class="Item1" src="img/path22.png" height="155" alt="Собака">
+      </div>
+      <div id="Item2">        
+        <span id="it1">Терапия</span>    
+        <span id="it2">Неврология</span>
+        <span id="it3">Вакцинация</span>
+        <span id="it4">Лаборатория</span>
+        <span id="it5">Хирургия</span>
+      </div>
+      <div id="video">
+        <iframe width="1236" height="700" src="https://www.youtube.com/embed/eq9Re14E_L8" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <div class="title">Вопросы</div>
+        <div class="questions">
+            <div class="gaonutosal">
+              <div class="pesontedan"><div class="circle"></div>
+                <input id="pesontedan-one" type="checkbox" name="pesontedans">
+                <label for="pesontedan-one">Можно ли вызвать ветеринара на дом?</label>
+                <div class="pesontedan-content">
+                  <p>НЕТ</p>
+                </div>
+              </div>
+              <div class="pesontedan"><div class="circle"></div>
+                <input id="pesontedan-two" type="checkbox" name="pesontedans">
+                <label for="pesontedan-two">Какие анализы сдать перед приемом?</label>
+                <div class="pesontedan-content">
+                  <p>НЕТ</p>
+                </div>
+              </div>
+              <div class="pesontedan"><div class="circle"></div>
+                <input id="pesontedan-three" type="checkbox" name="pesontedans">
+                <label for="pesontedan-three">Есть ли у вас бесплатная вакцинация?</label>
+                <div class="pesontedan-content">
+                  <p>НЕТ</p>
+                </div>
+              </div>
+              <div class="pesontedan"><div class="circle"></div>
+                <input id="pesontedan-four" type="checkbox" name="pesontedans">
+                <label for="pesontedan-four">Вы лечите экзотических животных?</label>
+                <div class="pesontedan-content">
+                  <p>НЕТ</p>
+                </div>
+              </div>
+            </div>
+        </div>
+      <div class="specialist">
+        <div class="title">Наши специалисты</div>
+        <div class="all">
+          <input checked type="radio" name="respond" id="desktop">
+            <div id="slider">
+                <input checked type="radio" name="slider" id="switch1">
+                <input type="radio" name="slider" id="switch2">
+                <input type="radio" name="slider" id="switch3">
+                <input type="radio" name="slider" id="switch4">
+                <input type="radio" name="slider" id="switch5">
+              <div id="slides">
+                <div id="overflow">
+                  <div class="image">
+                    <article><img src="img/Ellipse_20.png" width="240" alt="Собака"><h4>Анастасия</h4> <p>Иванова<p class="tex">Хирург</p></article>
+                    <article><img src="img/Ellipse_21.png" width="240" alt="Собака"><h4>Константин</h4> <p>Водолазов<p class="tex">Невролог</p></article>
+                    <article><img src="img/Ellipse_22.png" width="240" alt="Собака"><h4>Виктория</h4> <p>Воскресенская<p class="tex">Терапевт</p></article>
+                    <article><img src="img/Ellipse_24.png" width="240" alt="Собака"><h4>Эдуард</h4> <p>Собакен<p class="tex">Хирург</p></article>
+                    <article><img src="img/Ellipse_23.png" width="240" alt="Собака"><h4>Сын</h4> <p>Cобаки<p class="tex">Пёс</p></article>
+                  </div>
+                </div>
+              </div>
+              <div id="controls">
+                <label for="switch1"></label>
+                <label for="switch2"></label>
+                <label for="switch3"></label>
+              </div>
+            </div>
+        </div>
+      </div>
+      <div class="title">Записаться на прием</div>
+      <div id="entry">
+        <form action="1">
+          <input class="fr" type="text" name="usrname" placeholder="Имя*" required>
+          <input class="fr" type="text" name="lastname" placeholder="Фамилия*" required>
+          <input class="fr" style="margin-bottom: 60px;" type="text" name="phone" placeholder="Телефон*" required><br>
+          <label>Ваш питомец*<br></label>
+          <div class="fr4">
+            <input style="margin-top: 40px;" class="fra" type="radio" name="type" checked>Кот<br>
+            <input class="fra" type="radio" name="type">Собака
+          </div>
+          <div class="fr3">
+            <input class="fra" type="radio" name="type">Грызун<br>
+            <input class="fra" type="radio" name="type"><input class="fr2" type="text" name="type1" placeholder="Другое"><br>
+          </div>
+          <div style="width: 100%;margin-top: 200px;margin-bottom: 40px;"><label>Отделения<br></label></div>
+            <div class="fr4">
+              <input class="fra" type="radio" name="otd" checked>Терапевтическое<br>
+              <input class="fra" type="radio" name="otd">Неврологическое<br>
+              <input class="fra" type="radio" name="otd">Вакцинация
+            </div>
+            <div class="fr3" style="margin-right: 150px;">
+              <input class="fra" type="radio" name="otd">Лаборатория<br>
+              <input class="fra" type="radio" name="otd">Хирургическое
+            </div>
+            <div class="datatime">
+            <div class="data">
+              <label style="margin-top: 40px;" for="date">Дата приема*<br></label>
+                <input style="font-size: 36px;font-family: 'Comfortaa';margin-top: 20px;" type="date" id="date" name="date" required>
+            </div>
+            <div class="time">
+              <label style="margin-top: 40px;" for="time">Доступное время приема*<br></label>
+                <input style="font-size: 36px;font-family: 'Comfortaa';margin-top: 20px;" type="time" id="time" name="time" required>
+            </div>
+            </div>
+          <div class="buttns">
+            <div><input class="button_1" type="submit" value="Записаться"></div>
+            <div><input class="button_2" type="reset" value="Очистить"></div>
+          </div>
+       </form>
+      </div>
+      <div class="title" style="margin-bottom: 50px;">Контакты</div>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1503.1621895899184!2d27.56742062670405!3d53.87999830399436!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dbcfd57783ea41%3A0xf1e5dc7251376ec7!2z0YPQuy4g0J_QvtC70LXRgdGB0LrQsNGPIDUxLCDQnNC40L3RgdC6!5e0!3m2!1sru!2sby!4v1638350477174!5m2!1sru!2sby" width="852" height="852" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      <div id="contacts">
+        <p>Режим работы:</p>
+        <p>пн-пт: 8:00-20:00</p>
+        <p>сб-вс: 10:00-18:00</p><br><br>
+        <p>Телефон справки</p>
+        <p>+375 (33) 123 55 66</p><br><br>
+        <p>E-mail</p>
+        <p>pets@pets.by</p><br><br>
+        <p>г. Минск, ул. Полесская 51</p>
+        <p>222222</p><br>
+      </div>
+      <footer>
+        <div class="footer">
+          <div class="f_img">
+            <a><img style="margin-top: 60px;margin-right: 50px;" src="img/Vector_Vk.png" alt="Собака"></a>
+            <a><img style="margin-right: 50px;" src="img/Vector_Inst.png" width="43" alt="Собака"></a>
+            <a><img src="img/Vector_Fb.png" alt="Собака"></a>
+          </div>
+          <div class="f_text">
+            Copyright 2021
+          </div>
+        </div>
+      </footer>
+    <div class="b-popup" id="popup1">
+        <div class="b-popup-content">
+          <div class="bpop">
+            <div class="bl1">Заказать звонок</div>
+            <div class="bl2"><a href="javascript:PopUpHide()"><img src="img/crest.png" width="25" alt="1"></a></div>
+            <div class="bl3">
+              <form action="2">
+                <label>ФИО*<br></label>
+                <input class="fr" type="text" name="usrname" required>
+                <label>Телефон*<br></label>
+                <input class="fr" type="text" name="tel" placeholder="+375" required>
+                <label>Коротко опишите вашу проблему*<br></label>
+                <input class="fr" type="text" name="pr" required>
+              </form>
+            </div>
+            <div><input  class="bl5" type="submit" value="Заказать звонок"></div>
+          </div>
+        </div>
+    </div>
+    </body>
+</html>
